@@ -1,1 +1,20 @@
 // Mixins in here
+
+.display-flex-wrap(){
+    display: flex;
+    flex-wrap: wrap;
+}
+
+// button mixin
+
+    .btn(@width: 200px, @button-bg, @btn-font-color) {
+      width:200px;
+      background: @button-bg;
+      color:@white;
+      height:40px;
+      border-radius:15px;
+      display:block;
+      font-size:1.8rem;
+      text-align:center;
+      padding:10px;
+}
